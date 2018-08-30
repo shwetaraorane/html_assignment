@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Creating hyperlinks</title>
+</head>
+<body>
+<h2 align=center>Link to another webpage<br><br>
+<font color=red>Use of text for links</font>
+<br>
+<a href="http://www.google.com">CLICK HERE FOR GOOGLE!</a>
+<font color=blue>Use of image for links</font>
+<br>
+<a href="http://www.google.com"><img src="night.jpeg" width=30 height=30"></a>
+</body>
+</html>
+

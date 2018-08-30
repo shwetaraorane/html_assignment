@@ -1,0 +1,269 @@
+.searchbox
+{
+	width: 18%;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: white;
+	background-image: url('Images/top_search.png');
+	background-position: 200px 10px; 
+	background-repeat: no-repeat;
+	padding: 5px 5px 5px 5px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+.nav
+{
+	text-align:right;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	padding-right: 18%;
+}
+.nav li
+{
+	display:inline-block;
+	font-size:18;
+	padding: 6px;
+}
+li a
+{
+color:darkgrey;
+text-decoration: none;
+}
+li a:hover
+{
+	color: limegreen;
+}
+header
+{
+  padding: 0px 30px 20px 15px;
+  width: 96.5%;
+  background-color: darkgrey;
+  height: 90px;
+  font-family: sans-serif;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+input[type=submit] 
+{
+		float: right;
+    margin: 14px;
+    width: 15%;
+    background-color: grey;
+    color: white;
+    padding:15px 195px 15px 55px;
+    border: 2px solid white;
+    border-radius:4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+}
+.imagetext
+{
+	position: relative;;
+	color: black;
+	text-align: center;
+	font-size: 44px;
+}
+.image
+{
+	position: absolute;
+	top:108px;
+	right:220px;
+}
+.image2
+{
+	position: absolute;
+	bottom:200px;
+	left: 200px;
+}
+
+.buttonadd 
+{
+  width: 25%;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: yellowgreen;
+	background-image: url('Images/icon1.png');
+	background-position: 250px 5px; 
+	background-repeat: no-repeat;
+	padding: 5px 5px 9px 5px;
+	-webkit-transition: width 0.6s ease-in-out;
+	transition: width 0.6s ease-in-out;
+	color: white;
+	position: absolute;
+	bottom:100px;
+	right: 240px;
+}
+.abt
+{
+	font-family: sans-serif;
+	padding-left: 200px;
+	font-size: 40px;
+}
+.abt1
+{
+	font-family: sans-serif;
+	padding-left: 200px;
+	font-size: 38px;
+	color: darkgrey;
+}
+.image3
+{
+  float:right;
+	width:400px;
+	height:450px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	padding-right: 50px;
+}
+.abt2
+{
+	padding-left: 200px;
+	font-size: 20px;
+}
+.buttonadd1 
+{
+  width: 25%;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: yellowgreen;
+	background-image: url('Images/icon1.png');
+	background-position: 250px 5px; 
+	background-repeat: no-repeat;
+	padding: 5px 5px 9px 5px;
+	-webkit-transition: width 0.6s ease-in-out;
+	transition: width 0.6s ease-in-out;
+	color: white;
+	margin-top: 20px;
+	margin-left: 200px;
+}
+.style1
+{
+	position: relative;
+	bottom:250px;
+	left:5px;
+}
+.dash{
+	content: "-";
+  border: 0 none;
+  border-top: 1px dashed white;
+  background: none;
+  height:0;
+  vertical-align: middle;
+} 
+.text-block 
+{
+  position:absolute;
+  bottom: 100px;
+  left: 300px;
+  background-color: white;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.text-block1
+{
+  position:absolute;
+  bottom: 100px;
+  right: 300px;
+  background-color: white;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.buttonadd2 
+{
+  width: 85%;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: yellowgreen;
+	background-image: url('Images/small_triangle.png');
+	background-position: 190px 9px; 
+	background-repeat: no-repeat;
+	padding: 5px 5px 9px 5px;
+	-webkit-transition: width 0.6s ease-in-out;
+	transition: width 0.6s ease-in-out;
+	color: white;
+}
+.image4 {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
+.image4:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+.column
+{
+	column-count: 3;
+	column-gap: 20px;
+}
+.hover1:hover
+{
+	color: yellowgreen;
+}
+.hover2:hover
+{
+	background: yellowgreen;
+}
+footer
+{
+  padding: 10px 30px 20px 15px;
+  width: 96.5%;
+  background-color: darkgrey;
+  height: 90px;
+  font-family: sans-serif;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.row
+{
+	background-color: black;
+	height: 800px;
+	width:100%;
+}
+.buttonadd3 
+{
+  width: 20%;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: yellowgreen;
+	background-image: url('Images/icon7.png');
+	background-position: 220px 5px; 
+	background-repeat: no-repeat;
+	padding: 5px 5px 9px 5px;
+	-webkit-transition: width 0.6s ease-in-out;
+	transition: width 0.6s ease-in-out;
+	color: white;
+	float: right;
+	right: 100px;
+	margin: 10px;
+}
+.buttonadd4
+{
+  width: 20%;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: yellowgreen;
+	background-image: url('Images/icon6.png');
+	background-position: 220px 5px; 
+	background-repeat: no-repeat;
+	padding: 5px 5px 9px 5px;
+	-webkit-transition: width 0.6s ease-in-out;
+	transition: width 0.6s ease-in-out;
+	color: white;
+	float: right;
+	right: 300px;
+	margin:10px;
+}
+.column1
+{
+	-webkit-column-count: 3;
+	column-gap: 5px;
+}

@@ -1,0 +1,14 @@
+<html>
+	<head>
+	<title>Practice of style tag</title>
+	</head>
+	<body style="background-color:aliceblue">
+	<b style="color:DodgerBlue">Flowers</b>
+	<hr><br>
+
+	Flower is the most beautiful thing that nature has given us.<br> 
+	They are extremely beautiful and have their own <i><b>medicinal benifits</b></i>. <br>
+	They also help butterflies by providing their <i>nector</i>.<br>
+
+	</body>
+	</html>
