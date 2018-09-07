@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example to illustrate this keyword in Javascript</title>
+</head>
+<body>
+<h1 style="text-align: center;">Use of this keyword</h1>
+<p id="demo"></p>
+<script>
+var flower = {name: "rose",color : "red",flora : function() {return this.name + " " + this.color;}};
+document.getElementById("demo").innerHTML = flower.flora();
+</script>
+</body>
+</html>

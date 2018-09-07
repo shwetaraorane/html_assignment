@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example to illustrate For loop</title>
+</head>
+<body>
+<h1 style="text-align: center;"></h1>
+<p>Click below to see table of 5</p>
+<button onclick="myfunction()">CLICK</button>
+<p id="demo"></p>
+<script>
+	function myfunction()
+	{
+		var text="";
+		var i;
+		for (i = 1; i <= 10; i++) 
+		{
+			var mul=5*i;
+   	 text +=mul + "<br>";
+		}
+		document.getElementById("demo").innerHTML = text;
+	}
+</script>
+</body>
+</html>

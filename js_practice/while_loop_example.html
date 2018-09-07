@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example to illustrate while loop</title>
+</head>
+<body>
+<h1 style="text-align: center;">Use of while loop to show values of array</h1>
+Click below to dispaly flowers.
+<p id="demo"></p>
+<script>
+	var flower=["lily","sunflower","champa","tulip","rose","marigold","lotus"];
+	var i=0;
+	var text= "";
+		while(flower[i])
+		{
+			text += flower[i] + "<br>";
+			i++;
+		}
+		document.getElementById("demo").innerHTML=text;
+</script>
+</body>
+</html>

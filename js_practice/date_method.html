@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example to illustrate date methods</title>
+</head>
+<body>
+<h1 style="text-align: center;">Use of date method</h1>
+<li type="square">Use of normal date method<p id="demo"></p></li>
+<li type="square">Use of get date method<p id="demo1"></p></li>
+<li type="square">Use of set date method<p id="demo2"></p></li>
+<script>
+	var d=new Date();
+	document.getElementById("demo").innerHTML=d;
+	document.getElementById("demo1").innerHTML=d.getFullYear();
+	d.setFullYear(2020,6,3);
+	document.getElementById("demo2").innerHTML=d;
+</script>
+</body>
+</html>

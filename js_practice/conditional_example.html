@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example to illustrate conditional operator</title>
+</head>
+<body>
+<h1 style="text-align: center;">Use of conditional operator</h1>
+<button onclick="myfunction()">TRY IT!</button><p id="demo"></p>
+<script>
+	function myfunction()
+	{
+		var hour=new Date().getHours();
+		var greet;
+		if(hour<13)
+		{
+			greet="Good day";
+		}
+		else if (hour<17) 
+		{
+			greet="Good afternoon";
+		}
+		else
+		{
+			greet="Good evening";
+		}
+		document.getElementById("demo").innerHTML=greet;
+	}
+</script>
+</body>
+</html>

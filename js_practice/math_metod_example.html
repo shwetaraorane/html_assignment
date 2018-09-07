@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example to illustrate math method</title>
+</head>
+<body>
+<h1 style="text-align: center;">Different Math Method</h1>
+<li type="circle">To find sqaure of a number<p id="demo"></p></li>
+<li type="circle">To find sqaure root of a number<p id="demo1"></p></li>
+<li type="circle">To find cube root of a number<p id="demo2"></p></li>
+<li type="circle">To find absolute of a number<p id="demo3"></p></li>
+<li type="circle">To find ceil(which round ups to near value) of a number<p id="demo4"></p></li>
+<li type="circle">To find floor(which round downs to near value) of a number<p id="demo5"></p></li>
+<li type="circle">Math constant method<p id="demo6"></p></li>
+<li type="circle">Math random method<p id="demo7"></p></li>
+<script>
+	document.getElementById("demo").innerHTML=Math.pow(9,3);
+	document.getElementById("demo1").innerHTML=Math.sqrt(144);
+	document.getElementById("demo2").innerHTML=Math.cbrt(27);
+	document.getElementById("demo3").innerHTML=Math.abs(-27);
+	document.getElementById("demo4").innerHTML=Math.ceil(2.7);
+	document.getElementById("demo5").innerHTML=Math.floor(2.7);
+	document.getElementById("demo6").innerHTML = 
+"<p>Value for Exponential:" + Math.E + "</p>" +
+"<p>Value for Pi: " + Math.PI + "</p>" +
+"<p>Value for Sqrt2: " + Math.SQRT2 + "</p>" +
+"<p>Value for Sqrt1_2: " + Math.SQRT1_2 + "</p>" +
+"<p>Value for Ln2: " + Math.LN2 + "</p>" +
+"<p>Value for Ln10: " + Math.LN10 + "</p>" +
+"<p>Value for Log2e: " + Math.LOG2E + "</p>" +
+"<p>Vlaue for Log10e: " + Math.LOG10E + "</p>";
+document.getElementById("demo7").innerHTML=Math.floor(Math.random()*10);
+</script>
+</body>
+</html>

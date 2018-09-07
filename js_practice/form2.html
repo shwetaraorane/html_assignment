@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms using external CSS file</title>
+	<link rel="stylesheet" type="text/css" href="form_style.css">
+</head>
+<body>
+	<div>
+		<form>
+				<legend><b>Form Filling</b></legend>
+				<fieldset>
+				<legend><b><i>Personel Information</i></b></legend>
+				<b>First Name:</b><input type="text" name="First Name" placeholder="Enter First Name"><br>
+				<b>Last Name:</b><input type="text" name="Last Name" placeholder="Enter Last Name"><br>
+				<b>Gender:</b>
+				<input type="radio" name="Gender" p>Male
+				<input type="radio" name="Gender">Female<br>
+				<b>Telephone No.:</b><input type="tel" name="Telephone no" placeholder="Enter Telephone"><br>
+				<b>Email-id:</b><input type="email" name="Email-id" placeholder="Enter Email-id"><br>
+				<b>Address:</b><input type="text" name="Address" maxlength="100" placeholder="Enter Address"><br>
+				<b>Date of Birth:</b><input type="date" name="Date of Birth"><br>
+				</fieldset>
+				<fieldset>
+				<legend><b><i>Skill Sets</i></b></legend>
+				<b>Hobbies:</b><select>
+				<option value="Swimming">Swimming</option><br>
+				<option value="Drawing">Drawing</option><br>
+				<option value="Reading">Reading</option><br>
+				<option value="Dancing">Dancing</option><br>
+				<option value="Singing" >Singing</option><br>
+				</select>
+				<br><b>Sport Interest:</b><br>
+				<input type="checkbox" name="sport1">Khabadi<br>
+				<input type="checkbox" name="sport2">Cricket<br>
+				<input type="checkbox" name="sport3">Kho-Kho<br>
+				</fieldset>
+				<fieldset>
+				<legend><b><i>Other Details</i></b></legend>
+				<b>PAN Card no.:</b><input type="text" name="PAN no" maxlength="20"><br>
+				<b>Aadhar Card no.:</b><input type="text" name="Aadhar no" maxlength="30"><br>
+				<b>Blood Group:</b>
+				<select>
+				<option value="O+">O+</option>
+				<option value="O-">O-</option>
+				<option value="AB+">AB+</option>
+				<option value="AB-">AB-</option>
+				<option value="A+">A+</option>
+				<option value="A-">A-</option>
+				<option value="B+">B+</option>
+				<option value="B-">B-</option>	
+				</select><br>
+				<b>Photo:</b><input type="file" name="myfile"></input>
+				</fieldset>
+				<input type="submit" name="submit" value="SUBMIT">
+			
+		</form>
+	</div>
+</body>
+</html>

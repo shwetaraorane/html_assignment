@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example to illustrate break and continue statement</title>
+</head>
+<body>
+<h1 style="text-align: center;">Use of continue and break statement</h1>
+<li>Use of continue statement
+<p id="demo"></p></li>
+<li>Use of break statement
+<p id="demo1"></p></li>
+<script>
+	var i=1;
+	var text="";
+	for (;i<=10;i++)
+	{
+		if(i==3)
+			{continue;}
+		var mul=6*i;
+		text +=mul + "<br>";
+		
+	}
+	var j=0;
+	var text1="";
+	for (;j<=10;j++)
+	{
+		if(j==3)
+			{break;}
+		var mul=6*j;
+		text1 +=mul + "<br>";	
+	}
+	document.getElementById("demo").innerHTML=text;
+	document.getElementById("demo1").innerHTML=text1;
+</script>
+</body>
+</html>

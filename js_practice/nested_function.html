@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example to illustrate nested function</title>
+</head>
+<body>
+	<h1 style="text-align: center;">Example for nested function</h1>
+	Click button for incrementing<br>
+	<p id="demo"></p>
+<script>
+	document.getElementById("demo").innerHTML=myfunction();
+	function myfunction()
+	{
+		var count=0;
+		function myfunction2()
+		{
+			count +=1;
+		}
+		myfunction2();
+		myfunction2();
+		return count;
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example to illustrate array methods</title>
+</head>
+<body>
+<h1 style="text-align: center;">Array and their methods</h1>
+<li type="square">Using array pop method to remove element from end<p id="demo"></p></li>
+<p id="demo1"></p>
+<li type="square">
+	Using array push method to add element from end
+	<button onclick="myfunction()">TRY IT!</button>
+	<p id="demo2"></p></li>
+<script>
+	var flower=["jasmine","mogra","champa","sunflower","rose","lily"]
+	document.getElementById("demo").innerHTML=flower;
+	flower.pop();
+	document.getElementById("demo1").innerHTML=flower;
+	function myfunction()
+	{
+	flower.push("tulip");
+	document.getElementById("demo2").innerHTML=flower;	
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example to illustrate Form validation in javascript</title>
+	<link rel="stylesheet" type="text/css" href="form_style.css">
+	<script src="form_script.js"></script>
+</head>
+<body>
+	<div>
+		<form name="form" onsubmit="return validateForm()" method="post" action="submission_page.html">
+				<legend>
+					<b>Form Filling</b>
+				</legend>
+				<fieldset>
+					<legend>
+						<b><i>Personel Information</i></b>
+					</legend>
+					<b><b style="color: red;">*</b>First Name:</b><input type="text" name="FirstName" placeholder="Enter First Name" pattern="[A-Za-z]+" title="Name should only have character value"><br>
+					<b><b style="color: red;">*</b>Last Name:</b><input type="text" name="LastName" placeholder="Enter Last Name" pattern="[A-Za-z]+"><br>
+					<b><b style="color: red;">*</b>Gender:</b>
+					<input type="radio" name="Gender" required>Male
+					<input type="radio" name="Gender" required>Female<br>
+					<b><b style="color: red;">*</b>Mobile No.:</b><input type="text" name="MobileNo" placeholder="Enter Telephone" maxlength ="10" pattern="[0-9]+"><br>
+					<b><b style="color: red;">*</b>Email-id:</b><input type="email" name="EmailId" placeholder="Enter Email-id" required pattern="^(([-\w\d]+)(\.[-\w\d]+)*@([-\w\d]+)(\.[-\w\d]+)*(\.([a-zA-Z]{2,5}|[\d]{1,3})){1,2})"><br>
+					<b><b style="color: red;">*</b>Address:</b><input type="text" name="Address" maxlength="100" placeholder="Enter Address" pattern="[\WA-Za-z0-9]+"><br>
+					<b><b style="color: red;">*</b>Date of Birth:</b><input type="date" name="Date of Birth" required min="1990-01-01" max="new Date()"><br>
+				</fieldset>
+				<fieldset>
+					<legend><b><i>Skill Sets</i></b></legend>
+					<b>Hobbies:</b>
+					<input list="hobbies" name="hobbies">
+					<datalist id="hobbies">
+							<option value="Swimming">Swimming</option><br>
+							<option value="Drawing">Drawing</option><br>
+							<option value="Reading">Reading</option><br>
+							<option value="Dancing">Dancing</option><br>
+							<option value="Singing" >Singing</option><br>
+					</datalist><br>
+					<br><b>Sport Interest:</b><br>
+					<input type="checkbox" name="sport1">Khabadi<br>
+					<input type="checkbox" name="sport2">Cricket<br>
+					<input type="checkbox" name="sport3">Kho-Kho<br>
+				</fieldset>
+				<fieldset>
+					<legend><b><i>Other Details</i></b></legend>
+					<b><b style="color: red;">*</b>PAN Card no.:</b><input type="text" name="PanNo" required pattern="[A-Za-z0-9]+" maxlength="10"><br>
+					<b><b style="color: red;">*</b>Aadhar Card no.:</b><input type="text" name="AadharNo" maxlength="15" required pattern="[0-9]+"><br>
+					<b>Blood Group:</b>
+					<input list="bloodgroup" name="bloodgroup">
+					<datalist id="bloodgroup">
+						<option value="O+">O+</option>
+						<option value="O-">O-</option>
+						<option value="AB+">AB+</option>
+						<option value="AB-">AB-</option>
+						<option value="A+">A+</option>
+						<option value="A-">A-</option>
+						<option value="B+">B+</option>
+						<option value="B-">B-</option>	
+					</datalist><br><br>
+					<b>Photo:</b><input type="file" name="myfile"></input><br><br>
+				</fieldset>
+				<input type="submit" name="submit"  target="form" value="Submit">
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example to illustrate sorting array</title>
+</head>
+<body>
+<h1 style="text-align: center;">Sorting Arrays</h1>
+<li type="circle">
+	Sorting array string in ascending order
+	<button onclick="myfunction()">TRY IT!</button>
+	<p id="demo"></p>
+</li>
+<li type="circle">
+	Sorting array string in descending order
+	<p id="demo1"></p>
+</li>
+<li type="circle">
+	Sorting array of number in ascending order
+	<button onclick="myfunction1()">TRY IT!</button>
+	<p id="demo2"></p>
+</li>
+<li type="circle">
+	Sorting array of number in descending order
+	<button onclick="myfunction2()">TRY IT!</button>
+	<p id="demo3"></p>
+</li>
+<li type="circle">
+	Finding the maximum number in an array
+	<p id="demo4"></p>
+</li>
+<li type="circle">
+	Finding the minimum number in an array
+	<p id="demo5"></p>
+</li>
+<script>
+	var flower=["jasmine","mogra","champa","sunflower","rose","lily"];
+	var points = [40, 100, 1, 5, 25, 10];
+	document.getElementById("demo").innerHTML = flower;
+	function myfunction() 
+	{
+  	flower.sort();
+  	document.getElementById("demo").innerHTML = flower;
+  	flower.reverse();
+  	document.getElementById("demo1").innerHTML=flower;
+	}
+	document.getElementById("demo2").innerHTML = points;
+	function myfunction1() 
+	{
+    points.sort(function(a, b){return a-b});
+    document.getElementById("demo2").innerHTML = points;
+	}
+	document.getElementById("demo3").innerHTML = points;
+	function myfunction2()
+	{
+		points.sort(function(a,b){return b-a});
+		document.getElementById("demo3").innerHTML=points;
+	}
+	document.getElementById("demo4").innerHTML=Math.max.apply(null,points);
+	document.getElementById("demo5").innerHTML=Math.min.apply(null,points);
+</script>
+</body>
+</html>

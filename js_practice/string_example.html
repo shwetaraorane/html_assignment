@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example to illustrate string methods</title>
+</head>
+<body>
+<h1 style="text-align: center;">Various String Methods</h1>
+<li type="square" style="margin-left: 50px;" >String Length method :
+<p id="demo"></p></li>
+<li type="square" style="margin-left: 50px;" >Finding a String in a string method :
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p></li>
+<li type="square" style="margin-left: 50px;" >Searching a String in a string method :
+<p id="demo4"></p></li>
+<li type="square" style="margin-left: 50px;" >Extracting String parts using string method :
+<p id="demo5"></p></li>
+<li type="square" style="margin-left: 50px;" >Replacing string using string method :
+<p id="demo6"></p></li>
+<li type="square" style="margin-left: 50px;" >Converting string to upper case using string method :
+<p id="demo7"></p></li>
+<li type="square" style="margin-left: 50px;" >Converting string to lower case using string method :
+<p id="demo8"></p></li>
+<li type="square" style="margin-left: 50px;" >Concate string using string method :
+<p id="demo9"></p></li>
+<li type="square" style="margin-left: 50px;" >Extracting String character using string method :
+<p id="demo10"></p>
+<p id="demo11"></p></li>
+<script>
+	var txt1="HELLO",txt2="to",txt3="my",txt4="world",txt5="Every Individual is unique in itself";
+	document.getElementById("demo").innerHTML=txt1.length;
+	document.getElementById("demo1").innerHTML=txt5.indexOf("is");
+	document.getElementById("demo2").innerHTML=txt5.lastIndexOf("in");
+	document.getElementById("demo3").innerHTML=txt5.indexOf("in",5);
+	document.getElementById("demo4").innerHTML=txt5.search("in");
+	document.getElementById("demo5").innerHTML=txt4.slice(2,6);
+	document.getElementById("demo6").innerHTML=txt5.replace("unique","antic");
+	document.getElementById("demo7").innerHTML=txt2.toUpperCase();
+	document.getElementById("demo8").innerHTML=txt3.toLowerCase();
+	document.getElementById("demo9").innerHTML=txt1.concat(" ",txt4);
+	document.getElementById("demo10").innerHTML=txt1.charAt(4);
+	document.getElementById("demo11").innerHTML=txt5.charCodeAt(9);
+</script>
+</body>
+</html>
